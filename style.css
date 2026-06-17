@@ -128,7 +128,11 @@ a {
   padding: 8px 16px;
   border-radius: 999px;
   text-decoration: none;
-  font-size: 14px;
+  font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -.03em;
   color: var(--olive-dark);
 }
 
@@ -325,6 +329,17 @@ a {
   color: var(--muted);
 }
 
+.section__head p,
+.muted,
+.timeline__item p,
+.venue__content p,
+.dress-notes p,
+.wish-grid p,
+.rsvp__card p:not(.eyebrow) {
+  line-height: 1.65;
+  letter-spacing: 0;
+}
+
 .split {
   display: grid;
   grid-template-columns: .9fr 1.1fr;
@@ -462,6 +477,10 @@ a {
   grid-template-columns: .85fr 1.15fr;
   gap: 42px;
   align-items: start;
+}
+
+.rsvp__card p:not(.eyebrow) {
+  color: var(--muted);
 }
 
 .google-form {
