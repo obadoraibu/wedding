@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f6f2ec"/>
+      <stop offset="100%" stop-color="#e8dfd2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="900" fill="url(#sky)"/>
+  <circle cx="1120" cy="190" r="85" fill="#e7d3c7" opacity=".65"/>
+  <path d="M0 680 C250 600 420 720 640 620 C870 520 1060 640 1400 560 L1400 900 L0 900 Z" fill="#8b9380" opacity=".28"/>
+  <path d="M360 625 L700 360 L1040 625 Z" fill="#cfc4b5"/>
+  <rect x="445" y="625" width="510" height="190" rx="18" fill="#f9f6f1"/>
+  <rect x="640" y="695" width="120" height="120" rx="60" fill="#9ca88f" opacity=".55"/>
+  <text x="700" y="175" text-anchor="middle" font-family="Georgia, serif" font-size="64" fill="#77766c">Место церемонии</text>
+  <text x="700" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#969187">здесь будет фото или карта</text>
+</svg>
