@@ -569,11 +569,16 @@ fieldset {
   .nav {
     top: 10px;
     width: calc(100% - 20px);
-    overflow-x: auto;
+    padding: 8px;
+    flex-wrap: wrap;
+    overflow: visible;
     justify-content: center;
+    gap: 6px;
   }
 
   .nav a {
+    padding: 6px 10px;
+    font-size: 18px;
     white-space: nowrap;
   }
 
@@ -635,6 +640,11 @@ fieldset {
 }
 
 @media (max-width: 440px) {
+  .nav a {
+    padding: 6px 9px;
+    font-size: 17px;
+  }
+
   .hero {
     padding-bottom: 54px;
   }

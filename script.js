@@ -1,12 +1,7 @@
 const CONFIG = {
-  brideName: "Алиса",
-  groomName: "Егор",
   weddingDate: "2026-09-26T13:00:00+09:00",
   rsvpEmail: "your-email@example.com"
 };
-
-document.getElementById("brideName").textContent = CONFIG.brideName;
-document.getElementById("groomName").textContent = CONFIG.groomName;
 
 const els = {
   days: document.getElementById("days"),
